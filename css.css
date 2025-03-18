@@ -1,0 +1,25 @@
+.reg{
+    background-color: lightslategray;
+    border-radius: 20px;
+    width: 400px;
+    padding: 40px 0px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
+.swal2-title{
+    font-family: sans-serif;
+}
+.swal2-confirm{
+    background-color: rgb(255, 140, 140);
+}
