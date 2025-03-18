@@ -18,7 +18,7 @@ document.querySelector("button").addEventListener("click", function () {
 
         }
         console.log(inf)
-        if (inf.match(inputnn.value)) {
+        if (inf.includes(inputnn.value)) {
             Swal.fire({
                 title: "Already taken",
               });
